@@ -1,8 +1,39 @@
+//package com.driver;
+//
+//public class DeliveryPartner {
+//
+//    private String id;
+//    private int numberOfOrders;
+//
+//    public DeliveryPartner() {
+//    }
+//
+//    public DeliveryPartner(String id) {
+//        this.id = id;
+//        this.numberOfOrders = 0;
+//    }
+//
+//    public String getId() {
+//        return id;
+//    }
+//
+//    public void setId(String id) {
+//        this.id = id;
+//    }
+//
+//    public Integer getNumberOfOrders(){
+//        return numberOfOrders;
+//    }
+//
+//    public void setNumberOfOrders(Integer numberOfOrders) {
+//        this.numberOfOrders = numberOfOrders;
+//    }
+//}
 package com.driver;
 
 public class DeliveryPartner {
 
-    private String id;
+    private final String id;
     private int numberOfOrders;
 
     public DeliveryPartner(String id) {
@@ -14,7 +45,7 @@ public class DeliveryPartner {
         return id;
     }
 
-    public Integer getNumberOfOrders(){
+    public Integer getNumberOfOrders() {
         return numberOfOrders;
     }
 
